@@ -420,6 +420,10 @@ body {
   overflow-x: scroll;
 }
 
+.section-offers .offers__slider::-webkit-scrollbar {
+  display: none;
+}
+
 .section-offers .offers__slider__container {
   min-width: 30%;
   scroll-snap-align: end;
