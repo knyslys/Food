@@ -7,6 +7,10 @@
   color: #2b2d2e;
 }
 
+.alink:hover {
+  color: #000;
+}
+
 .btn--orange {
   max-width: 20rem;
   color: #000;
@@ -242,8 +246,14 @@ body {
 }
 
 .navigation .nav__cart__itemsincart {
+  transition: all .5s linear;
   display: flex;
   position: relative;
+}
+
+.navigation .nav__cart__itemsincart:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .navigation .nav__cart__itemsincart .mobilenavigation {

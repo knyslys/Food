@@ -537,7 +537,7 @@ var _sliderJs = require("./slider.js");
 var _productsJs = require("./products.js");
 var _cartJs = require("./cart.js");
 const countdownContainer = document.querySelector(".offers__countdown");
-const futureDate = new Date("Jan 15, 2023 15:37:25").getTime();
+const futureDate = new Date("Jan 15, 2024 15:37:25").getTime();
 let countdownInterval = setInterval(()=>{
     //gaunam array datu. Dienos / valandos/ minutes / sekundes
     let countdownDate = (0, _countdownJs.setDate)(futureDate);
@@ -732,55 +732,55 @@ const products = [
         id: 1543,
         name: "Apples",
         price: 75.0,
-        img: require("9937015962eccd8b")
+        img: require("e24ef8e0c57adc32")
     },
     {
         id: 1432,
         name: "Bannanas",
         price: 62.0,
-        img: require("fe22ffd988751531")
+        img: require("14fd9f14fca7f723")
     },
     {
         id: 1768,
         name: "Cabbages",
         price: 80.0,
-        img: require("2baea7ba519bd5f4")
+        img: require("b4519261bc594ee9")
     },
     {
         id: 1111,
         name: "Pineapples",
         price: 75.0,
-        img: require("172ccf286b5c07f")
+        img: require("b370179770b28e29")
     },
     {
         id: 1685,
         name: "Strawberries",
         price: 75.0,
-        img: require("51dec8aa74a4c80f")
+        img: require("61c7c1686927e012")
     },
     {
         id: 1064,
         name: "Oranges",
         price: 75.0,
-        img: require("d5037d1cd7cf8171")
+        img: require("ab5209f30d9cf969")
     },
     {
         id: 1182,
         name: "Cherries",
         price: 75.0,
-        img: require("833ed5fdc23dfb95")
+        img: require("26abb1046d026ab7")
     },
     {
         id: 1152,
         name: "Kiwi",
         price: 25.0,
-        img: require("40f397a3863b337f")
+        img: require("c6637507e2f7517a")
     },
     {
         id: 1181,
         name: "Dragonfruit",
         price: 50.0,
-        img: require("350d308c620434e2")
+        img: require("692176db1680a268")
     }
 ];
 const productContainer = document.querySelector(".popular");
@@ -894,10 +894,10 @@ const loadProducts = ()=>{
 };
 loadProducts();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","9937015962eccd8b":"i4p8G","fe22ffd988751531":"g3iFy","2baea7ba519bd5f4":"2IFlA","172ccf286b5c07f":"jahgo","51dec8aa74a4c80f":"toHOz","d5037d1cd7cf8171":"i84hL","833ed5fdc23dfb95":"ecImU","40f397a3863b337f":"cP9pa","350d308c620434e2":"80SLh"}],"i4p8G":[function(require,module,exports) {
-module.exports = require("fe4e59b4a6a7d0c9").getBundleURL("cyvfC") + "apples.5160f3fc.jpg" + "?" + Date.now();
+},{"e24ef8e0c57adc32":"i4p8G","14fd9f14fca7f723":"g3iFy","b4519261bc594ee9":"2IFlA","b370179770b28e29":"jahgo","61c7c1686927e012":"toHOz","ab5209f30d9cf969":"i84hL","26abb1046d026ab7":"ecImU","c6637507e2f7517a":"cP9pa","692176db1680a268":"80SLh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i4p8G":[function(require,module,exports) {
+module.exports = require("f1483c1a1d093f61").getBundleURL("cyvfC") + "apples.5160f3fc.jpg" + "?" + Date.now();
 
-},{"fe4e59b4a6a7d0c9":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"f1483c1a1d093f61":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -932,30 +932,30 @@ exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
 },{}],"g3iFy":[function(require,module,exports) {
-module.exports = require("3ccd45c4b2f11509").getBundleURL("cyvfC") + "banana.86430115.jpg" + "?" + Date.now();
+module.exports = require("fc2938b71a6a939a").getBundleURL("cyvfC") + "banana.86430115.jpg" + "?" + Date.now();
 
-},{"3ccd45c4b2f11509":"lgJ39"}],"2IFlA":[function(require,module,exports) {
-module.exports = require("18d5958da5651a20").getBundleURL("cyvfC") + "cabbage.7d30efaf.jpg" + "?" + Date.now();
+},{"fc2938b71a6a939a":"lgJ39"}],"2IFlA":[function(require,module,exports) {
+module.exports = require("b3bfb1619be8a5ec").getBundleURL("cyvfC") + "cabbage.7d30efaf.jpg" + "?" + Date.now();
 
-},{"18d5958da5651a20":"lgJ39"}],"jahgo":[function(require,module,exports) {
-module.exports = require("5616f4d69c6ac9a1").getBundleURL("cyvfC") + "pineapple.2cc944ee.jpg" + "?" + Date.now();
+},{"b3bfb1619be8a5ec":"lgJ39"}],"jahgo":[function(require,module,exports) {
+module.exports = require("1947da28f0e557b7").getBundleURL("cyvfC") + "pineapple.2cc944ee.jpg" + "?" + Date.now();
 
-},{"5616f4d69c6ac9a1":"lgJ39"}],"toHOz":[function(require,module,exports) {
-module.exports = require("abf13376d34ac6").getBundleURL("cyvfC") + "strawberries.26612a27.jpg" + "?" + Date.now();
+},{"1947da28f0e557b7":"lgJ39"}],"toHOz":[function(require,module,exports) {
+module.exports = require("236a2faf9728d9e2").getBundleURL("cyvfC") + "strawberries.26612a27.jpg" + "?" + Date.now();
 
-},{"abf13376d34ac6":"lgJ39"}],"i84hL":[function(require,module,exports) {
-module.exports = require("ae489fdb32464f8a").getBundleURL("cyvfC") + "oranges.7e9b9936.jpg" + "?" + Date.now();
+},{"236a2faf9728d9e2":"lgJ39"}],"i84hL":[function(require,module,exports) {
+module.exports = require("cc39ccbc8309ad92").getBundleURL("cyvfC") + "oranges.7e9b9936.jpg" + "?" + Date.now();
 
-},{"ae489fdb32464f8a":"lgJ39"}],"ecImU":[function(require,module,exports) {
-module.exports = require("e7f45541aeb3e196").getBundleURL("cyvfC") + "cherries.15e50207.jpg" + "?" + Date.now();
+},{"cc39ccbc8309ad92":"lgJ39"}],"ecImU":[function(require,module,exports) {
+module.exports = require("fad8758fbbb664fb").getBundleURL("cyvfC") + "cherries.15e50207.jpg" + "?" + Date.now();
 
-},{"e7f45541aeb3e196":"lgJ39"}],"cP9pa":[function(require,module,exports) {
-module.exports = require("6997c4a55f46e1c9").getBundleURL("cyvfC") + "kiwi.3426a2a7.jpg" + "?" + Date.now();
+},{"fad8758fbbb664fb":"lgJ39"}],"cP9pa":[function(require,module,exports) {
+module.exports = require("26345c067a99e39a").getBundleURL("cyvfC") + "kiwi.3426a2a7.jpg" + "?" + Date.now();
 
-},{"6997c4a55f46e1c9":"lgJ39"}],"80SLh":[function(require,module,exports) {
-module.exports = require("6d81b85a8c284211").getBundleURL("cyvfC") + "dragonfruit.20d8d98b.jpg" + "?" + Date.now();
+},{"26345c067a99e39a":"lgJ39"}],"80SLh":[function(require,module,exports) {
+module.exports = require("1142cd744dda3d00").getBundleURL("cyvfC") + "dragonfruit.20d8d98b.jpg" + "?" + Date.now();
 
-},{"6d81b85a8c284211":"lgJ39"}],"lXW1K":[function(require,module,exports) {
+},{"1142cd744dda3d00":"lgJ39"}],"lXW1K":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "itemsInCart", ()=>itemsInCart);
